@@ -1,0 +1,36 @@
+.main__btn {
+  width: 100%;
+  height: 100%;
+  .btn {
+    all: unset;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgb(77, 215, 250);
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: x-large;
+    color: white;
+    transition: all 0.5s;
+    &:hover {
+      background-color: rgb(53, 194, 230);
+    }
+  }
+  .bg__none {
+    all: unset;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+    transition: all 0.5s;
+    border: 1px solid rgb(77, 215, 250);
+    &:hover {
+      background-color: white;
+      border-color: rgb(53, 194, 230);
+    }
+  }
+}

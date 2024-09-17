@@ -1,0 +1,28 @@
+.create__main {
+    height: 88.9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .create__flex__section {
+      box-shadow: 0px 0px 14px rgb(181, 180, 180);
+      padding: 20px 25px;
+      h1 {
+        text-align: center;
+      }
+      .label__main {
+        .label__upload__video {
+          border: 1px solid black;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 10px 0px;
+          border-radius: 10px;
+          cursor: pointer;
+        }
+      }
+      .upload__inp {
+        display: none;
+      }
+    }
+  }
+  

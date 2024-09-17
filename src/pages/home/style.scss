@@ -1,0 +1,16 @@
+.home__main {
+  .images__Post {
+    margin: 30px 50px;
+    h1 {
+      text-decoration: underline;
+    }
+    .card__div {
+      display: flex;
+      gap: 10rem;
+      .buttons__div {
+        display: flex;
+        justify-content: space-around;
+      }
+    }
+  }
+}

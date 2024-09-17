@@ -1,0 +1,32 @@
+.container {
+  .flex__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .image__div {
+      img {
+        width: 10rem;
+        height: 10rem;
+        object-fit: cover;
+        object-position: top;
+      }
+      video {
+        width: 10rem;
+        height: 10rem;
+        object-fit: cover;
+        object-position: top;
+      }
+    }
+    .title__div {
+      h5 {
+        opacity: 1;
+      }
+    }
+    .para__div {
+      p {
+        opacity: 2;
+      }
+    }
+  }
+}
